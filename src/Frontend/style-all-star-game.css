@@ -91,12 +91,7 @@ body
     font-size: small;
     text-align: center;
     padding: 5px 10px;
-    background-color: var(--bg-color-menu);
-    color: var(--cor-fonte-conteudo);
     border: 0;
-    border-radius: var(--radius);
-    width: 65px;
-    height: 33px;
 }
 
 /* Configurações do footer */
@@ -136,4 +131,47 @@ footer
 .footer-section li a:hover{font-weight: bold}
 footer ul li{padding-bottom: 5px;}
 
-/* Cofigurações do main */
+header{
+    margin-bottom: 20px;
+}
+
+main{
+    padding-top: 20px;
+
+}
+.main-container{
+    display: flex;
+}
+main h1{
+    margin-top: 20px;
+    text-align: left;
+}
+main p {
+text-align: justify;}
+
+.Tabelas table{
+   width: 100%;
+
+}
+.Tabela-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.Tabelas th, .Tabelas td {
+    border: 1px solid;
+    padding: 8px;
+    text-align: left;
+}
+.Tabelas{
+    margin-right: 40px;
+    float: left;
+    margin: 20px;
+}
+.Paragrafo p{
+    text-align: center;
+}
+.Tabelas th{
+    background-color: #DC3545;
+    color: #FFFFFF;
+}

@@ -91,12 +91,7 @@ body
     font-size: small;
     text-align: center;
     padding: 5px 10px;
-    background-color: var(--bg-color-menu);
-    color: var(--cor-fonte-conteudo);
     border: 0;
-    border-radius: var(--radius);
-    width: 65px;
-    height: 33px;
 }
 
 /* Configurações do footer */
@@ -150,3 +145,13 @@ footer ul li{padding-bottom: 5px;}
 
 }
 .row p{text-align: justify;}
+.carousel-inner{border-radius: var(--radius);}
+.carousel-item a
+{
+    text-decoration: none;
+    color: #FFFFFF; 
+}
+.carousel-item a :hover
+{
+    font-weight: bold;
+}
