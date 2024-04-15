@@ -150,7 +150,8 @@ main p {
 text-align: justify;}
 
 .Tabelas table{
-   width: 100%;
+   width: 60%;
+   height: 200px;
 
 }
 .Tabela-container{
@@ -158,20 +159,42 @@ text-align: justify;}
     justify-content: space-between;
     margin-top: 20px;
 }
+.Tabela-container table{
+    justify-content: center;
+    text-align: center;
+}
 .Tabelas th, .Tabelas td {
     border: 1px solid;
     padding: 8px;
-    text-align: left;
 }
 .Tabelas{
-    margin-right: 40px;
-    float: left;
+    margin-right: 20px;
     margin: 20px;
+    column-count: 1;
+    text-align: center;
+}
+.Tabelas h2 {
+    text-align: left;
 }
 .Paragrafo p{
     text-align: center;
+    margin: 20px;
 }
 .Tabelas th{
     background-color: #DC3545;
     color: #FFFFFF;
 }
+.Paragrafo h3{
+    text-align: left;
+}
+.carousel-inner{
+    width: 1000px;
+    height: 450px;
+}
+.Historia{
+    margin-top: 20px;
+}
+aside{
+    text-align: right;
+}
+
