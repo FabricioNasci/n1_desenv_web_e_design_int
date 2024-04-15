@@ -26,14 +26,13 @@
                     </a>
                 </div>
                 <div class="botao-entrar-index">
-                    <a href="#"><button type="button">ENTRAR</button></a>
+                    <p><a class="btn btn-danger" href="#">Entrar</a></p>
                 </div>
             </nav>
             <nav class="menu">
                 <ul class="menu-items">
                     <li><a href="all-star-game.html">All-Star Game</a></li>
                     <li><a href="mvp.html">MVP</a></li>
-                    <li><a href="classificacao.html">Classificação</a></li>
                     <li><a href="ultimos-campeoes.html">Ultimos Campeões</a></li>
                 </ul>
             </nav>
@@ -41,44 +40,41 @@
         <div class="main-container">
             <main>
                 <!-- Carousel -->
-                <div id="carouselExampleDark" class="carousel carousel-dark slide">
+                <div id="carouselExampleCaptions" class="carousel slide">
                     <div class="carousel-indicators">
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
                             aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
                             aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
                             aria-label="Slide 3"></button>
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active" data-bs-interval="10000">
-                            <img src="https://placehold.co/2085x600/png" class="d-block w-100" alt="...">
+                            <img src="img/all_star_game.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>First slide label</h5>
-                                <p>Some representative placeholder content for the first s lide.</p>
+                                <a href="all-star-game.html"><h5>All-Star Game</h5></a>
                             </div>
                         </div>
                         <div class="carousel-item" data-bs-interval="2000">
-                            <img src="https://placehold.co/2085x600/png" class="d-block w-100" alt="...">
+                            <img src="img/mvp.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>Second slide label</h5>
-                                <p>Some representative placeholder content for the second slide.</p>
+                                <a href="mvp.html"><h5>MVP</h5></a>
                             </div>
                         </div>
                         <div class="carousel-item">
-                            <img src="https://placehold.co/2085x600/png" class="d-block w-100" alt="...">
+                            <img src="img/campeoes.jpg" class="d-block w-100" alt="...">
                             <div class="carousel-caption d-none d-md-block">
-                                <h5>Third slide label</h5>
-                                <p>Some representative placeholder content for the third slide.</p>
+                                <a href="ultimos-campeoes.html"><h5>Ultimos Campeões</h5></a>
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
                         data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
                         data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
@@ -87,39 +83,25 @@
                 <!-- Vitrine -->
                 <div class="row">
                     <div class="col-lg-4">
-                        <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
-                            preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <h2 class="fw-normal">Heading</h2>
-                        <p>Some representative placeholder content for the three columns of text below the carousel.
-                            This is the first column.</p>
-                        <p><a class="btn btn-danger" href="#">Saiba mais</a></p>
+                        <img src="img/bill-russell.jpg" alt="Bill Russell" width="140" height="140" class="rounded-circle">
+                        <rect width="100%" height="100%"></rect>
+                        <h2 class="fw-normal">Bill Russell</h2>
+                        <p>SMaior vencedor da história da NBA, com 11 títulos conquistados pelo Boston Celtics entre 1957 e 1969. Além disso, foi MVP das Finais em 5 oportunidades e selecionado para o All-Star Game 12 vezes. Defensor dominante, reboteiro implacável e líder exemplar.</p>
+                        <p><a class="btn btn-danger" href="https://www.nba.com/news/history-nba-legend-bill-russell" target="_blank">Saiba mais</a></p>
                     </div>
                     <div class="col-lg-4">
-                        <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
-                            preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <h2 class="fw-normal">Heading</h2>
-                        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the
-                            second column.</p>
-                        <p><a class="btn btn-danger" href="#">Saiba mais</a></p>
+                        <img src="img/michael-jordan.jpg" alt="Michael Jordan" width="140" height="140" class="rounded-circle">
+                        <rect width="100%" height="100%"></rect>
+                        <h2 class="fw-normal">Michael Jordan</h2>
+                        <p>Considerado por muitos o maior jogador de todos os tempos, Jordan conquistou 6 títulos com o Chicago Bulls nas décadas de 1990 e 2000. Foi MVP das Finais em 6 oportunidades, MVP da temporada regular em 5 ocasiões e selecionado para o All-Star Game 14 vezes.</p>
+                        <p><a class="btn btn-danger" href="https://www.nba.com/news/history-nba-legend-michael-jordan" target="_blank">Saiba mais</a></p>
                     </div>
                     <div class="col-lg-4">
-                        <svg class="bd-placeholder-img rounded-circle" width="140" height="140"
-                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder"
-                            preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="var(--bs-secondary-color)"></rect>
-                        </svg>
-                        <h2 class="fw-normal">Heading</h2>
-                        <p>And lastly this, the third column of representative placeholder content.</p>
-                        <p><a class="btn btn-danger" href="#">Saiba mais</a></p>
+                        <img src="img/kareem.jpg" alt="Kareem Abdul-Jabbar" width="140" height="140" class="rounded-circle">
+                        <rect width="100%" height="100%"></rect>
+                        <h2 class="fw-normal">Kareem Abdul-Jabbar</h2>
+                        <p>Maior pontuador da história da NBA, com mais de 38.000 pontos anotados em sua carreira. Abdul-Jabbar conquistou 6 títulos, sendo MVP das Finais em 6 oportunidades e MVP da temporada regular em 6 ocasiões.</p>
+                        <p><a class="btn btn-danger" href="https://www.nba.com/news/history-nba-legend-kareem-abdul-jabbar" target="_blank">Saiba mais</a></p>
                     </div>
                 </div>
             </main>
@@ -146,7 +128,6 @@
                         <strong>LINKS RÁPIDOS</strong>
                         <li><a href="all-star-game.html">All-Star Game</a></li>
                         <li><a href="mvp.html">MVP</a></li>
-                        <li><a href="classificacao.html">Classificação</a></li>
                         <li><a href="ultimos-campeoes.html">Ultimos Campeões</a></li>
                     </ul>
                 </div>
