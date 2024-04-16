@@ -143,35 +143,84 @@ main{
     display: flex;
 }
 main h1{
-    margin-top: 20px;
     text-align: left;
 }
 main p {
 text-align: justify;}
 
 .Tabelas table{
-   width: 100%;
+   width: 400px;
+   height: 150px;
+   border-collapse: collapse;
 
 }
 .Tabela-container{
     display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
+}
+.Tabela-container table{
+    text-align: center;
 }
 .Tabelas th, .Tabelas td {
     border: 1px solid;
     padding: 8px;
-    text-align: left;
 }
 .Tabelas{
+    column-count: 1;
+    text-align: center;
     margin-right: 40px;
+    flex:1;
+    vertical-align: top;
+    display: flex;
     float: left;
-    margin: 20px;
+    flex-direction: column;
+
+}
+.Tabelas h2 {
+    text-align: left;
 }
 .Paragrafo p{
     text-align: center;
+    margin: 20px;
 }
 .Tabelas th{
     background-color: #DC3545;
     color: #FFFFFF;
 }
+.Paragrafo h3{
+    text-align: left;
+}
+
+.Historia{   
+     margin-top: 2%;
+     text-align: justify;
+
+}
+aside{
+    text-align: right;
+}
+iframe{
+    margin-top: 2%;
+   
+
+}
+.Video h2{
+    margin-top: 4%;
+}
+
+.Video p {
+    text-align: justify;
+    padding: 20px;
+}
+.Negrito{
+    font-weight: bold;
+    margin-top: 5%;
+
+
+
+}
+.Video iframe{
+    float: left;
+    flex:1;
+    margin-right: 20px;
+}
+
