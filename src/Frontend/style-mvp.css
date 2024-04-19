@@ -144,22 +144,17 @@ footer ul li{padding-bottom: 5px;}
 
 .main-container p{
     text-align: left;       
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     border-radius: 10px;      /* Borda arredondada */
     width: 100%;
-    
+    font-size: 1em;
+    line-height: 1.6;
 }
 .main-container h2 {
     margin-top: 30px;
     margin-bottom: 20px;
     font-size: 1.8em;
 
-}
-
-.main-container p {
-    margin-bottom: 30px;
-    line-height: 1.6; /* Espaçamento entre as linhas */
-    font-size: 1em;
 }
 
 .main-container h1 img {
