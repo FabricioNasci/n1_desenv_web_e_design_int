@@ -132,19 +132,37 @@ footer
 footer ul li{padding-bottom: 5px;}
 
 /* Cofigurações do main */
+
 .main-container h1 {
-    text-align: center;       /* Alinhar o texto ao centro */
-    margin-top: 50px;         /* Espaçamento superior */
-    margin-bottom: 60px;
-    border-radius: 10px;      /* Borda arredondada */
+    text-align: center; 
+    margin-top: 30px; 
+    margin-bottom: 40px;
+    font-size: 2.5em; /* Tamanho da fonte */
 }
 
 
 
 .main-container p{
-    text-align: left;       /* Alinhar o texto ao centro */
+    text-align: left;       
     margin-bottom: 50px;
     border-radius: 10px;      /* Borda arredondada */
     width: 100%;
     
+}
+.main-container h2 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+
+}
+
+.main-container p {
+    margin-bottom: 30px;
+    line-height: 1.6; /* Espaçamento entre as linhas */
+    font-size: 1em;
+}
+
+.main-container h1 img {
+    max-width: 100%; /* Imagem responsiva */
+    border-radius: 8px; /* Borda arredondada */
 }
