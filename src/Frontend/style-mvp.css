@@ -132,3 +132,19 @@ footer
 footer ul li{padding-bottom: 5px;}
 
 /* Cofigurações do main */
+.main-container h1 {
+    text-align: center;       /* Alinhar o texto ao centro */
+    margin-top: 50px;         /* Espaçamento superior */
+    margin-bottom: 60px;
+    border-radius: 10px;      /* Borda arredondada */
+}
+
+
+
+.main-container p{
+    text-align: left;       /* Alinhar o texto ao centro */
+    margin-bottom: 50px;
+    border-radius: 10px;      /* Borda arredondada */
+    width: 100%;
+    
+}
