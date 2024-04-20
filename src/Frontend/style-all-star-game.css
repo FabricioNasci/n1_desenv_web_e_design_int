@@ -42,7 +42,7 @@ body
     border-radius: var(--radius);
     align-items: center;
     margin: 0;
-    padding: 0;
+    padding: 10px;
     justify-content: space-between;
 }
 .menu
@@ -54,7 +54,7 @@ body
     margin: 0;
     padding: var(--pading);
     justify-content: center;
-    height: 40px;
+    height: 60px;
 }
 .menu-items
 {
@@ -86,10 +86,10 @@ body
 {
     font-weight: bold;
 }
-.botao-entrar-index button
+.botao-entrar-index
 {
+    font-family: var(--fonte);
     text-align: center;
-    padding: 5px 10px;
     border: 0;
 }
 
