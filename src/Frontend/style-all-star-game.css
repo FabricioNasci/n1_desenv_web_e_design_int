@@ -100,6 +100,7 @@ footer
     background-color: var(--bg-color-footer);
     border-radius: 0;
     padding: 20px;
+    margin-top: 20px;
 }
 .container-footer
 {
@@ -145,37 +146,38 @@ main h1{
     text-align: left;
 }
 main p {
-text-align: justify;}
+text-align: justify;
+}
 
-.Tabelas table{
-   width: 400px;
-   height: 150px;
-   border-collapse: collapse;
 
+.Tabelas-container{
+    
+        float: left;
+        width: 50%;
+        box-sizing: border-box;
+        padding: 10px;
+        height: 300px; 
 }
-.Tabela-container{
-    display: flex;
-}
-.Tabela-container table{
-    text-align: center;
-}
+
 .Tabelas th, .Tabelas td {
     border: 1px solid;
     padding: 8px;
 }
 .Tabelas{
-    column-count: 1;
     text-align: center;
     margin-right: 40px;
     flex:1;
     vertical-align: top;
-    display: flex;
     float: left;
     flex-direction: column;
+    margin-top: -10px;
 
 }
 .Tabelas h2 {
     text-align: left;
+}
+.Tabelas p{
+    text-align: justify;
 }
 .Paragrafo p{
     text-align: center;
@@ -190,7 +192,7 @@ text-align: justify;}
 }
 
 .Historia{   
-     margin-top: 2%;
+     margin-top: 30px;
      text-align: justify;
 
 }
@@ -222,4 +224,33 @@ iframe{
     flex:1;
     margin-right: 20px;
 }
+.Historia p{
+    column-count: 2;
+    width: 90%;
+    margin-right: 20px;
+    column-gap: 20px;
+    text-align: justify;
+}
+.SobreAllStar p{
+    width:40%;
+    text-align: left justify;
+    column-count: 1;
+}
+
+    
+
+.SobreAllStar img{
+    width: 513px;
+    height: 259px;
+    flex:1;
+    float: right;
+    margin-top: -50px;
+    margin-right: 90px;
+
+}
+.Historia h2{
+    margin-top: 20px;
+}
+
+
 
