@@ -130,9 +130,9 @@ footer
 .footer-section li a:hover{font-weight: bold}
 footer ul li{padding-bottom: 5px;}
 
-.pragrafo h2{
+/* .pragrafo h2{
   text-align: justify;  
-}
+} */
 
 .h2, h2 {
     
@@ -144,9 +144,39 @@ main {
     margin: auto;
 }
 
-image{
+.main-container p{
+    padding-left: 50px;
+    text-align: justify;
+    text-indent: 15px;
+    margin-top: 20px;
+    margin-right: 50px;
+}
+.class1{
+    display: flex;
+    /* margin-right: 1px; */
+    text-align: justify;
+    align-items: baseline;
+   
+}
+
+.class2{
+    display: flex;
+    /* margin-right: 150px; */
+    text-align: justify;
+    align-items: baseline ;
     
-    margin-top: 100px;  
+}
+
+.class3{
+    display: flex;
+    /* margin-right: 5px; */
+    text-align: justify;
+}
+
+.class4{
+    display: flex;
+    /* margin-right: 5px; */
+    text-align: justify;
 }
 
 
