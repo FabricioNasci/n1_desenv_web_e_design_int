@@ -131,17 +131,22 @@ footer
 footer ul li{padding-bottom: 5px;}
 
 /* Cofigurações do main */
+.main-container {
+    display: flex;
+    flex-wrap: wrap; /* Permite quebrar linhas se necessário */
+    align-items: flex-start; /* Alinha os itens no topo */
+  }
 
 .main-container h1 {
     
     margin-top: 30px; 
-    margin-bottom: -20px;
+    margin-bottom: 0px;
     font-size: 2.5em; /* Tamanho da fonte */
-    padding-left: 30px;
+    
 }
-.main-container p{
+.teste01 p{
     text-align: justify;       
-    margin-bottom: 30px;
+    margin-bottom: 40px;
     border-radius: 10px;      /* Borda arredondada */
     width: 40%;
     font-size: 1em;
@@ -150,19 +155,47 @@ footer ul li{padding-bottom: 5px;}
     padding-right: 5px;
     box-sizing: border-box;
     margin-left: 600px;
-    width: 40%;
+    flex: 1;
+    
 }
 
 
 
-.main-container h2 {
+.teste01 h2 {
     margin-left: 600px;
     margin-bottom: 20px;
     font-size: 1.8em;
-
+    flex: 1;
+    width: 40%;
+    
 }
 
 .main-container  img {
-    max-width: 100%; /* Imagem responsiva */
-    border-radius: 8px; /* Borda arredondada */
+    float: left; /* Flutua a imagem para a esquerda */
+  margin-right: 20px; /* Adicione espaço à direita da imagem */
+  width: 50%;
+  border-radius: 10px;
+  
 }
+.teste02 h2{
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    flex: 1;
+    width: 50%;
+    
+    
+}
+.teste02 p{
+    text-align: justify;       
+    margin-bottom: 40px;
+    border-radius: 10px;      /* Borda arredondada */
+    width: 50%;
+    font-size: 1em;
+    line-height: 1.6;
+    padding-left: 5px;
+    padding-right: 5px;
+    box-sizing: border-box;
+    flex: 1;
+    float: left;
+}
+
