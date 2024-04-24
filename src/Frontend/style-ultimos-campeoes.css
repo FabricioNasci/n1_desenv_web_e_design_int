@@ -130,9 +130,6 @@ footer
 .footer-section li a:hover{font-weight: bold}
 footer ul li{padding-bottom: 5px;}
 
-/* .pragrafo h2{
-  text-align: justify;  
-} */
 
 .h2, h2 {
     
@@ -140,8 +137,8 @@ footer ul li{padding-bottom: 5px;}
 }
 
 main {
-    max-width: 80%;
-    margin: auto;
+    max-width: 90%;
+    margin: auto; 
 }
 
 .main-container p{
@@ -150,33 +147,24 @@ main {
     text-indent: 15px;
     margin-top: 20px;
     margin-right: 50px;
+    box-sizing: border-box;
+    
 }
 .class1{
     display: flex;
-    /* margin-right: 1px; */
-    text-align: justify;
-    align-items: baseline;
-   
 }
 
 .class2{
-    display: flex;
-    /* margin-right: 150px; */
-    text-align: justify;
-    align-items: baseline ;
-    
+    display: flex;    
 }
 
 .class3{
     display: flex;
-    /* margin-right: 5px; */
-    text-align: justify;
 }
 
 .class4{
     display: flex;
-    /* margin-right: 5px; */
-    text-align: justify;
+    
 }
 
 
