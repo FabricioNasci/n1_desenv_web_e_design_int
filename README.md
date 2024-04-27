@@ -19,7 +19,7 @@
 </p>
 
 
-Site destinado a prover informações sobre NBA aos amantes da laranjinha 🏀.
+Site destinado a prover informações sobre a National Basketball Association (NBA) aos amantes da laranjinha 🏀.
 
 ## 📋 Licença/License
 
