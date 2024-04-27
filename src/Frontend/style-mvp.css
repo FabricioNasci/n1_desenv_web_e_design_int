@@ -93,6 +93,11 @@ body
     border: 0;
 }
 
+.botao-entrar-index a:hover
+{
+    font-weight: bold;
+}
+
 /* Configurações do footer */
 footer
 {
@@ -135,6 +140,7 @@ footer ul li{padding-bottom: 5px;}
     display: flex;
     flex-wrap: wrap; /* Permite quebrar linhas se necessário */
     align-items: flex-start; /* Alinha os itens no topo */
+    padding-left: 50px;
   }
 
 .main-container h1 {

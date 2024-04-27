@@ -93,6 +93,11 @@ body
     border: 0;
 }
 
+.botao-entrar-index a:hover
+{
+    font-weight: bold;
+}
+
 /* Configurações do footer */
 footer
 {

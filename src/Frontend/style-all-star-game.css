@@ -93,6 +93,11 @@ body
     border: 0;
 }
 
+.botao-entrar-index a:hover
+{
+    font-weight: bold;
+}
+
 /* Configurações do footer */
 footer
 {
@@ -137,13 +142,14 @@ header{
 
 main{
     padding-top: 20px;
-
+    padding-left: 50px;
 }
 .main-container{
     display: flex;
+
 }
 main h1{
-    text-align: left;
+    text-align: justify;
 }
 main p {
 text-align: justify;
@@ -180,7 +186,7 @@ text-align: justify;
     text-align: justify;
 }
 .Paragrafo p{
-    text-align: center;
+    text-align: justify;
     margin: 20px;
 }
 .Tabelas th{
@@ -233,7 +239,7 @@ iframe{
 }
 .SobreAllStar p{
     width:40%;
-    text-align: left justify;
+    text-align: justify;
     column-count: 1;
 }
 
@@ -253,4 +259,12 @@ iframe{
 }
 
 
+.Tebelas-container
+{
+    padding-left: 50px;
+}
 
+.p
+{
+    text-align: justify;
+}
