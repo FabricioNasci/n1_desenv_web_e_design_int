@@ -86,14 +86,14 @@ body
 {
     font-weight: bold;
 }
-.botao-entrar-d
+.botao-entrar-home
 {
     font-family: var(--fonte);
     text-align: center;
     border: 0;
 }
 
-.botao-entrar-d a:hover
+.botao-entrar-home a:hover
 {
     font-weight: bold;
 }
@@ -105,7 +105,6 @@ footer
     background-color: var(--bg-color-footer);
     border-radius: 0;
     padding: 20px;
-    margin-top: 20px;
 }
 .container-footer
 {
@@ -136,135 +135,31 @@ footer
 .footer-section li a:hover{font-weight: bold}
 footer ul li{padding-bottom: 5px;}
 
-header{
-    margin-bottom: 20px;
-}
-
-main{
-    padding-top: 20px;
-    padding-left: 50px;
-}
-.main-container{
+/* Cofigurações do main */
+.main-container
+{
     display: flex;
+    margin: var(--gap);
+}
+.row
+{
+    padding: 30px;
+    align-items: center;
+    justify-content: space-evenly;
 
 }
-main h1{
-    text-align: justify;
+.row p{text-align: justify;}
+.carousel-inner
+{
+    border-radius: var(--radius);
+    padding-top: 20px;
 }
-main p {
-text-align: justify;
+.carousel-item a
+{
+    text-decoration: none;
+    color: #FFFFFF; 
 }
-
-
-.Tabelas-container{
-    
-        float: left;
-        width: 50%;
-        box-sizing: border-box;
-        padding: 10px;
-        height: 300px; 
-}
-
-.Tabelas th, .Tabelas td {
-    border: 1px solid;
-    padding: 8px;
-}
-.Tabelas{
-    text-align: center;
-    margin-right: 40px;
-    flex:1;
-    vertical-align: top;
-    float: left;
-    flex-direction: column;
-    margin-top: -10px;
-
-}
-.Tabelas h2 {
-    text-align: left;
-}
-.Tabelas p{
-    text-align: justify;
-}
-.Paragrafo p{
-    text-align: justify;
-    margin: 20px;
-}
-.Tabelas th{
-    background-color: #DC3545;
-    color: #FFFFFF;
-}
-.Paragrafo h3{
-    text-align: left;
-}
-
-.Historia{   
-     margin-top: 30px;
-     text-align: justify;
-
-}
-aside{
-    text-align: right;
-}
-iframe{
-    margin-top: 2%;
-   
-
-}
-.Video h2{
-    margin-top: 4%;
-}
-
-.Video p {
-    text-align: justify;
-    padding: 20px;
-}
-.Negrito{
+.carousel-item a :hover
+{
     font-weight: bold;
-    margin-top: 5%;
-
-
-
-}
-.Video iframe{
-    float: left;
-    flex:1;
-    margin-right: 20px;
-}
-.Historia p{
-    column-count: 2;
-    width: 90%;
-    margin-right: 20px;
-    column-gap: 25px;
-    text-align: justify;
-}
-.SobreAllStar p{
-    width:40%;
-    text-align: justify;
-    column-count: 1;
-}
-
-    
-
-.SobreAllStar img{
-    width: 513px;
-    height: 259px;
-    flex:1;
-    float: right;
-    margin-top: -50px;
-    margin-right: 90px;
-
-}
-.Historia h2{
-    margin-top: 21px;
-}
-
-
-.Tebelas-container
-{
-    padding-left: 50px;
-}
-
-.p
-{
-    text-align: justify;
 }

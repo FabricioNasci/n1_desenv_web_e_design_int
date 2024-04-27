@@ -1,7 +1,3 @@
-*{
-    list-style-type: none;
-}
-
 /* Variáveis do projeto */
 :root
 {
@@ -19,11 +15,11 @@
     --opacidade: ;
 }
 
-body
+.html
 {
-    font-family: var(--fonte);
     margin: 0;
     padding: 0;
+    margin: 0;
     height: 100vh;
     width: 100vw;
 }
@@ -31,135 +27,38 @@ body
 .container
 {
     display: flex;
-    flex-direction: column;
-}   
-
-
-/* Configurações do menu */
-.topo-menu
-{
-    display: flex;
-    border-radius: var(--radius);
-    align-items: center;
-    margin: 0;
-    padding: 10px;
-    justify-content: space-between;
-}
-.menu
-{
-    display: flex;
-    border-radius: var(--radius);
-    background-color: var(--bg-color-menu);
-    align-items: center;
-    margin: 0;
-    padding: var(--pading);
+    align-content: center;
     justify-content: center;
-    height: 60px;
 }
-.menu-items
-{
-    border-radius: var(--radius);
-    background-color: var(--bg-color-menu);
-    display: flex;
-    align-items: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    font-size: 25px;
-}
-.menu-items li{margin-left: 15px}
-.menu-items li:first-child{margin-left: 15px;}
-.menu-items li a
-{
-    text-decoration: none;
-    color: var(--cor-fonte-menu);
-}
-.menu li::before 
-{
-    color: var(--cor-fonte-menu);
-    content: "| "; /* Insere o "|" e um espaço antes */
-    display: inline-block; /* Torna o elemento inline */
-    margin-right: 10px; /* Adiciona espaço à direita */
-}
-.menu li:first-child::before {content: ""; /* Remove o "|" do primeiro item */}
-.menu-items li a:hover
-{
-    font-weight: bold;
-}
-.botao-entrar-index
+
+body
 {
     font-family: var(--fonte);
-    text-align: center;
-    border: 0;
 }
 
-.botao-entrar-index a:hover
-{
-    font-weight: bold;
-}
-
-/* Configurações do footer */
-footer
-{
-    color: var(--cor-fonte-conteudo);
-    background-color: var(--bg-color-footer);
-    border-radius: 0;
-    padding: 20px;
-}
-.container-footer
-{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-.footer-section
+.formulario
 {
     flex: 1;
-    max-width: 30%;
-    text-align: left;
+    align-content: center;
+    justify-content: center;
 }
-.footer-bottom
-{
-    margin: 0;
-    vertical-align: baseline;
-    text-align: center;
-    font-size: 10px;
-}
-.footer-section strong{text-align: center;}
-.footer-section li a
-{
-    text-decoration: none;
-    color: #f2f2f2;
-    text-align: center;
-}
-.footer-section li a:hover{font-weight: bold}
-footer ul li{padding-bottom: 5px;}
 
-/* Cofigurações do main */
-.main-container
+.mb-3
 {
-    display: flex;
-    margin: var(--gap);
+    width: 369px;
 }
-.row
-{
-    padding: 30px;
-    align-items: center;
-    justify-content: space-evenly;
 
-}
-.row p{text-align: justify;}
-.carousel-inner
+.botao-newsletter button
 {
-    border-radius: var(--radius);
-    padding-top: 20px;
+    font-size: big;
+    text-align: center;
+    margin-bottom: 10px;
+    width: 369px;
 }
-.carousel-item a
+
+.imagem
 {
-    text-decoration: none;
-    color: #FFFFFF; 
+    flex: 1;
 }
-.carousel-item a :hover
-{
-    font-weight: bold;
-}
+
+

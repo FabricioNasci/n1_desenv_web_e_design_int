@@ -86,14 +86,14 @@ body
 {
     font-weight: bold;
 }
-.botao-entrar-index
+.botao-entrar-home
 {
     font-family: var(--fonte);
     text-align: center;
     border: 0;
 }
 
-.botao-entrar-index a:hover
+.botao-entrar-home a:hover
 {
     font-weight: bold;
 }
