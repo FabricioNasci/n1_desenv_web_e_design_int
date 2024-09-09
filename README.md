@@ -15,8 +15,8 @@
 ## Descrição
 
 <p align="center">
-<img src="https://live.staticflickr.com/65535/53681778577_bf153d0876_w.jpg" alt="Logo NBA Informa" border="0">
+<img src="https://gizmodo.uol.com.br/wp-content/blogs.dir/8/files/2019/08/android-10-google.jpg" alt="Logo NBA Informa" border="0">
 </p>
 
 
-Calculadora de IMC 📱.
+Primeiro projeto, Programação Mobile, Calculadora de IMC 📱.
